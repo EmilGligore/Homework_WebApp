@@ -1,0 +1,66 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+}
+
+.image {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.menu-button {
+    grid-row: 1;
+    grid-column: 3;
+}
+
+.product-gallery {
+    grid-row: 2 / 9;
+    grid-column: 1 / 3;
+    border-style: solid;
+    border-radius: 10px;
+
+}
+
+.button-edit {
+    grid-row: 2;
+    grid-column: 2;
+    width: 20%;
+    margin-left: 80%;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.product-info-span {
+    grid-row: 2;
+    grid-column: 3;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.product-info-section {
+    grid-row: 3 / 9;
+    grid-column: 3;
+    border-style: solid;
+    align-items: center;
+    justify-content: center;
+    padding: 40%;
+    border-radius: 10px;
+}
+
+.button-edit-product {
+    grid-row: 3;
+    grid-column: 3;
+    width: 20%;
+    margin-left: 80%;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.button-save {
+    grid-row: 9;
+    grid-column: 3;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+

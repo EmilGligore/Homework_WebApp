@@ -1,0 +1,16 @@
+body {
+    background-color: whitesmoke;
+}
+
+.logo {
+    width: 10%;
+}
+
+.image-size {
+    width: 30px;
+    margin-left: 90%;
+}
+
+* {
+    color: gray;
+}

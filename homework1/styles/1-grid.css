@@ -1,0 +1,84 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+}
+
+.image {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.menu-button {
+    grid-row: 1;
+    grid-column: 3;
+}
+
+.title {
+    grid-row: 2;
+    grid-column: 2 ;
+    margin: auto;
+}
+
+.image-profile {
+    grid-row: 3;
+    grid-column: 1;
+}
+
+.profile-description {
+    grid-row: 3;
+    grid-column: 2 / 4;
+}
+
+.profile-description div input {
+    margin-left: 10%;
+}
+
+.delivery-address {
+    grid-row: 4;
+    grid-column: 1 / 4;
+}
+
+.billing-address {
+    grid-row: 5;
+    grid-column: 1 / 4;
+}
+
+.orders-span {
+    grid-row: 6;
+    grid-column: 2;
+}
+
+.orders-list {
+    grid-row: 7;
+    grid-column: 1 / 4;
+    border-style: solid;
+    align-items: center;
+    justify-items: center;
+    padding-left: 40%;
+    padding-right: 40%;
+}
+
+.products-span {
+    grid-row: 8;
+    grid-column: 2;
+}
+
+.products-list {
+    grid-row: 9;
+    grid-column: 1 / 4;
+    border-style: solid;
+    align-items: center;
+    justify-items: center;
+    padding-left: 40%;
+    padding-right: 40%;
+}
+
+input {
+    background-color: aliceblue;
+    border-width: 1px;
+}
+
+dl {
+    background-color: aliceblue;
+}
