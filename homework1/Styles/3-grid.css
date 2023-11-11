@@ -1,0 +1,58 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.image {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.menu-button {
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.order-details {
+    grid-row: 2;
+    grid-column: 1 / 4;
+    border-style: solid;
+    background-color: aliceblue;
+}
+
+.span-status {
+    grid-row: 2;
+    grid-column: 2;
+    position: absolute;
+    margin-left: 94.5%;
+    margin-top: -5.4%;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.delivery-addressh2 {
+    grid-row: 3;
+    grid-column: 1;
+    margin: auto;
+}
+
+.billing-addressh2 {
+    grid-row: 3;
+    grid-column: 2;
+    margin: auto;
+}
+
+.delivery-address-details {
+    grid-row: 4;
+    grid-column: 1;
+    border-style: solid;
+    background-color: aliceblue;
+}
+
+.billing-address-details {
+    grid-row: 4;
+    grid-column: 2;
+    border-style: solid;
+    background-color: aliceblue;
+}
